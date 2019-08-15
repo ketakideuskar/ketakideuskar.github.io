@@ -1,0 +1,48 @@
+.jumbotron {
+  background: url('portland_skyline.png') no-repeat center center;
+  background-size: cover;
+  min-height: 750px;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  padding: 10px;
+  margin-left: 50px;
+  padding-left: 50px;
+}
+
+#name {
+  color: #ffffff;
+  font-size: 150px;
+  font-family: "Darker Grotesque";
+}
+
+nav {
+  background-color: #747390;
+  font-family: "Darker Grotesque";
+  font-size: 20px;
+}
+
+.nav-item {
+  padding: 10px;
+  letter-spacing: 2px;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.transbox {
+  background-color: #747390;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  width: 400px;
+}
+
+.self-pic {
+  margin-top: 50px;
+  background-image: url('ketaki2.png');
+}
