@@ -1,1 +1,1 @@
-Personal Wesbite + Blog :)
+Personal Website + Blog :)
