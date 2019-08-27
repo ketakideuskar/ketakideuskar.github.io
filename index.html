@@ -75,7 +75,7 @@
         </div>
       </div>
 
-      <!-- Education section -->
+      <!-- Education section
       <div class="row">
         <div class="col-lg-4 offset-lg-1">
           <h1 class="header">Education</h1>
@@ -90,6 +90,7 @@
           <h4>June 2022</h4>
         </div>
       </div>
+      -->
 
       <div class="row">
         <div class="col-lg-4 offset-lg-1">
@@ -97,10 +98,8 @@
         </div>
       </div>
       <div class="row">
-        <!--<div class="col-lg-3 offset-lg-1">
-          <button type="button" class="btn btn-course" style="background-color: #747390;"><i class="fa fa-check">Computer Science</i></button>
-        </div>-->
 
+        <!--flip cards-->
         <div class="col-lg-3 offset-lg-1 flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
@@ -109,14 +108,21 @@
               </div>
             </div>
             <div class="flip-card-back">
-              <h1>John Doe</h1>
-              <p>Architect & Engineer</p>
-              <p>We love that guy</p>
+              <div class="flip-text">
+                <p>CSE Startup</p>
+                <p>CSE 142</p>
+                <p>CSE 143</p>
+                <p>CSE Seminar</p>
+                <p>CSE 331</p>
+                <p>CSE 351</p>
+                <p>CSE 391</p>
+                <p>CSE 311</p>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-3 offset-lg-1 flip-card">
+        <div class="col-lg-3 offset-lg-1 flip-card" style="margin-left: 70px;">
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <div class="text">
@@ -124,14 +130,17 @@
               </div>
             </div>
             <div class="flip-card-back">
-              <h1>John Doe</h1>
-              <p>Architect & Engineer</p>
-              <p>We love that guy</p>
+              <div class="flip-text">
+                <p>MATH 124</p>
+                <p>MATH 125</p>
+                <p>MATH 126</p>
+                <p>MATH 308</p>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-3 offset-lg-1 flip-card">
+        <div class="col-lg-3 offset-lg-1 flip-card" style="margin-left: 70px;">
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <div class="text">
@@ -139,25 +148,34 @@
               </div>
             </div>
             <div class="flip-card-back">
-              <h1>John Doe</h1>
-              <p>Architect & Engineer</p>
-              <p>We love that guy</p>
+              <div class="flip-text">
+                <p>PSYCH 100</p>
+                <p>ASIAN 221</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
       <!-- Hobbies section -->
-      <h1 class="header">Hobbies</h1>
+      <div class="row">
+        <div class="col-lg-4 offset-lg-1">
+          <h1 style="padding-top: 150px;">Hobbies</h1>
+        </div>
+      </div>
 
       <!-- Projects section -->
-      <h1 class="header">Projects</h1>
+      <div class="row">
+        <div class="col-lg-4 offset-lg-1">
+          <h1>Projects</h1>
+        </div>
+      </div>
 
       <!-- Contact section -->
       <h1 class="header" style="text-align: center;">Contact Me</h1>
       <div class="row" style="margin-bottom: 50px;">
         <div class="col-lg-6 offset-lg-3">
-          <button type="button" class="btn btn-circle btn-xl" style="background-color: #747390; margin-left: 80px;"><i class="fa fa-check"></i></button>
+          <button onclick="myFunction(name)" type="button" name="google.com" class="btn btn-circle btn-xl" style="background-color: #747390; margin-left: 80px;"><i class="fa fa-check"></i></button>
           <button type="button" class="btn btn-circle btn-xl" style="background-color: #747390;"><i class="fa fa-check"></i></button>
           <button type="button" class="btn btn-circle btn-xl" style="background-color: #747390;"><i class="fa fa-check"></i></button>
           <button type="button" class="btn btn-circle btn-xl" style="background-color: #747390;"><i class="fa fa-check"></i></button>
@@ -166,9 +184,11 @@
       </div>
 
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+      <script>
+        function myFunction(name) {
+          window.open("www."+name);
+        }
+      </script>
+    </body>
+
 </html>

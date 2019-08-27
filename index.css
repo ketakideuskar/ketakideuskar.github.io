@@ -105,7 +105,7 @@ nav {
   background-color: transparent;
   width: 300px;
   height: 200px;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  perspective: 1000px;
 }
 
 /* This container is needed to position the front and back side */
@@ -143,8 +143,18 @@ nav {
   background-color: #747390;
   color: white;
   transform: rotateY(180deg);
+  text-align: left;
 }
 
 .text {
-  padding-top: 50px;
+  padding-top: 100px;
+  color: #ffffff;
+  font-family: "Darker Grotesque";
+}
+
+.flip-text {
+  padding-top: 20px;
+  padding-left: 20px;
+  color: #ffffff;
+  font-family: "Darker Grotesque";
 }
