@@ -13,6 +13,20 @@
   padding-left: 50px;
 }
 
+/*test fonts*/
+.header {
+  font-family: "Proza Libre";
+  font-weight: bold;
+}
+
+.content {
+  font-family: "Montserrat";
+}
+
+.test-content2 {
+  font-family: "Montserrat";
+}
+
 #name {
   color: #ffffff;
   font-size: 150px;
@@ -90,10 +104,6 @@ nav {
   line-height: 1.42857;
 }
 
-.header {
-  margin-top: 50px;
-}
-
 .course {
   text-align: center;
 }
@@ -135,14 +145,14 @@ nav {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #747390;
+  background-color: #8F9073;
   color: black;
   text-align: center;
 }
 
 /* Style the back side */
 .flip-card-back {
-  background-color: #747390;
+  background-color: #8F9073;
   color: white;
   transform: rotateY(180deg);
   text-align: left;
