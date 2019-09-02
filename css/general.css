@@ -1,0 +1,65 @@
+/*transparent box and large header image*/
+.jumbotron {
+  background: url('../images/portland_skyline.png') no-repeat center center;
+  background-size: cover;
+  min-height: 750px;
+  display: flex;
+  align-items: center;
+}
+
+.transbox {
+  background-color: #747390;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  width: 400px;
+}
+
+.container {
+  text-align: center;
+  padding: 10px;
+  margin-left: 50px;
+  padding-left: 50px;
+}
+
+.header {
+  font-family: "Proza Libre";
+  font-weight: bold;
+}
+
+.content {
+  font-family: "Montserrat";
+}
+
+.self-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.about {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+.course, #contact {
+  text-align: center;
+}
+
+.course-title {
+  color: white;
+}
+
+#header-name {
+  color: #ffffff;
+  font-size: 150px;
+  font-family: "Darker Grotesque";
+}
+
+#top-row {
+  margin-top: 10px;
+}

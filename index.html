@@ -4,13 +4,17 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="index.css" test="text/css">
+    <!--Check if I can just link the css folder rather than each individual file-->
+    <link rel="stylesheet" href="css/general.css" test="text/css">
+    <link rel="stylesheet" href="css/flipcard.css" test="text/css">
+    <link rel="stylesheet" href="css/linking.css" test="text/css">
+    <link rel="stylesheet" href="css/contact-buttons.css" test="text/css">
+    <link rel="stylesheet" href="css/nav.css" test="text/css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Linking Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto|Proza+Libre|Open+Sans|Lato&display=swap" rel="stylesheet">
-
-
     <title>Ketaki Deuskar</title>
   </head>
   <body>
@@ -58,15 +62,15 @@
     </nav>
 
     <div class="jumbotron">
-      <div class="container transbox ">
-        <h1 id="name">Ketaki Deuskar</h1>
+      <div class="container transbox">
+        <h1 id="header-name">Ketaki Deuskar</h1>
       </div>
     </div>
 
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-4 offset-lg-1 img-responsive ">
-          <img src="cabo3.png">
+          <img src="images/cabo3.png">
         </div>
         <div class="col-lg-5">
             <h1 class="header">About Me</h1>
@@ -76,13 +80,13 @@
         </div>
       </div>
 
-      <!-- Education section
+      <!--Education-->
       <div class="row">
         <div class="col-lg-4 offset-lg-1">
           <h1 class="header">Education</h1>
         </div>
       </div>
-      <div class="row" style="margin-top: 10px;">
+      <div class="row" id="top-row">
         <div class="col-lg-4 offset-lg-1">
           <h3>University of Washington, Seattle</h3>
           <h4>B.S. Computer Science</h4>
@@ -91,18 +95,15 @@
           <h4>June 2022</h4>
         </div>
       </div>
-      -->
 
+      <!--Courses-->
       <div class="row">
         <div class="col-lg-4 offset-lg-1">
-          <h2 class="header">Coursework</h2>
+          <h2 class="header">Courses</h2>
         </div>
       </div>
       <div class="row">
-
         <!--flip cards-->
-
-
         <div class="col-lg-3 offset-lg-1 flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
@@ -111,7 +112,7 @@
               </div>
             </div>
             <div class="flip-card-back">
-              <div class="flip-text">
+              <div class="back-text">
                 <p><a href="https://www.cs.washington.edu/students/ugrad/directadmission/startup" target="_blank" rel="noopener noreferrer">CSE STARTUP</a></p>
                 <p><a href="https://courses.cs.washington.edu/courses/cse142/" target="_blank" rel="noopener noreferrer">CSE 142</a></p>
                 <p><a href="https://courses.cs.washington.edu/courses/cse143/" target="_blank" rel="noopener noreferrer">CSE 143</a></p>
@@ -125,6 +126,7 @@
           </div>
         </div>
 
+        <!--confused why making the style a class isn't working with margins-->
         <div class="col-lg-3 offset-lg-1 flip-card" style="margin-left: 70px;">
           <div class="flip-card-inner">
             <div class="flip-card-front">
@@ -133,7 +135,7 @@
               </div>
             </div>
             <div class="flip-card-back">
-              <div class="flip-text">
+              <div class="back-text">
                 <p><a href="https://sites.math.washington.edu/~m124/" target="_blank" rel="noopener noreferrer">MATH 124</a></p>
                 <p><a href="https://sites.math.washington.edu/~m125/" target="_blank" rel="noopener noreferrer">MATH 125</a></p>
                 <p><a href="https://sites.math.washington.edu/~m126/" target="_blank" rel="noopener noreferrer">MATH 126</a></p>
@@ -143,7 +145,7 @@
           </div>
         </div>
 
-        <div class="col-lg-3 offset-lg-1 flip-card" style="margin-left: 70px;">
+        <div class="col-lg-3 offset-lg-1 flip-card right-flipcards" style="margin-left: 70px;">
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <div class="text">
@@ -151,7 +153,7 @@
               </div>
             </div>
             <div class="flip-card-back">
-              <div class="flip-text">
+              <div class="back-text">
                 <p><a href="https://www.washington.edu/students/crscat/psych.html" target="_blank" rel="noopener noreferrer">PSYCH 100</a></p>
                 <p><a href="http://faculty.washington.edu/prem/Asian225A-2019/Syllabus.pdf" target="_blank" rel="noopener noreferrer">HONORS 225B</a></p>
               </div>
@@ -163,6 +165,7 @@
       <!-- Hobbies section -->
       <div class="row">
         <div class="col-lg-4 offset-lg-1">
+          <!--remove this style later-->
           <h1 class="header" style="padding-top: 150px;">Hobbies</h1>
         </div>
       </div>
@@ -175,23 +178,18 @@
       </div>
 
       <!-- Contact section -->
-      <h1 class="header" style="text-align: center;">Contact Me</h1>
+      <h1 class="header" id="contact">Contact Me</h1>
+      <!--confused why making the style a class isn't working with margins-->
       <div class="row" style="margin-bottom: 50px;">
         <div class="col-lg-6 offset-lg-3">
-          <button onclick="myFunction(https://www.w3schools.com)" type="button" name="google.com" class="btn btn-circle btn-xl" style="background-color: #747390; margin-left: 80px;"><i class="fa fa-check"></i></button>
-          <button type="button" class="btn btn-circle btn-xl" style="background-color: #747390;"><i class="fa fa-check"></i></button>
-          <button type="button" class="btn btn-circle btn-xl" style="background-color: #747390;"><i class="fa fa-check"></i></button>
-          <button type="button" class="btn btn-circle btn-xl" style="background-color: #747390;"><i class="fa fa-check"></i></button>
+          <button type="button" name="google.com" class="btn btn-circle btn-xl" style="margin-left: 80px;"><i class="fa fa-check"></i></button>
+          <button type="button" class="btn btn-circle btn-xl"><i class="fa fa-check"></i></button>
+          <button type="button" class="btn btn-circle btn-xl"><i class="fa fa-check"></i></button>
+          <button type="button" class="btn btn-circle btn-xl"><i class="fa fa-check"></i></button>
         </div>
       </div>
       </div>
 
-    <!-- Optional JavaScript -->
-      <script>
-      function myFunction(name) {
-        location.replace(name)
-      }
-      </script>
     </body>
 
 </html>

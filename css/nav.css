@@ -1,0 +1,16 @@
+/*Used for styling the navigation bar*/
+nav {
+  background-color: #747390;
+  font-family: "Darker Grotesque";
+  font-size: 20px;
+}
+
+.nav-item {
+  padding: 10px;
+  letter-spacing: 2px;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  letter-spacing: 3px;
+}

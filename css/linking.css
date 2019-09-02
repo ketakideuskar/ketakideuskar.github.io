@@ -1,0 +1,23 @@
+/*Used for styling the links in the Coursework section of the website.*/
+
+p > a:link {
+  text-decoration: none;
+  color: white;
+}
+
+p > a:visited {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+p > a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+p > a:active {
+  text-decoration: none;
+  color: white;
+}
