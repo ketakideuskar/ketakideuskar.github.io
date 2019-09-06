@@ -14,3 +14,7 @@ nav {
   font-size: 20px;
   letter-spacing: 3px;
 }
+
+.curr-page {
+  color: rgba(255,255,255,.75) !important;
+}
