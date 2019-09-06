@@ -33,10 +33,10 @@
       <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
           <ul class="navbar-nav ml-auto flex-nowrap">
               <li class="nav-item">
-                  <a href="#" class="nav-link">Home</a>
+                  <a href="homepage.html" class="nav-link">Home</a>
               </li>
               <li class="nav-item"> <!-- would include dropdown class-->
-                  <a href="#" class="nav-link dropdown">College</a>
+                  <a href="college.html" class="nav-link dropdown">College</a>
                   <!--Drop down-->
                   <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Freshman
@@ -49,7 +49,7 @@
                   </div>-->
               </li>
               <li class="nav-item">
-                  <a href="#" class="nav-link">Travel</a>
+                  <a href="travel.html" class="nav-link">Travel</a>
               </li>
               <!--<li class="nav-item">
                   <a href="#" class="nav-link">Senior</a>
@@ -174,13 +174,19 @@
       <!--confused why making the style a class isn't working with margins-->
       <div class="row" style="margin-bottom: 50px;">
         <div class="col-lg-6 offset-lg-3">
-          <button type="button" onclick="window.location.href = 'https://www.linkedin.com/in/ketaki-deuskar-407532145/';" target="_blank" class="btn btn-circle btn-xl" style="margin-left: 90px;"><i class="fa fa-check"></i></button>
+          <button type="button" onclick=" window.open('https://www.linkedin.com/in/ketaki-deuskar-407532145/','_blank')" class="btn btn-circle btn-xl" style="margin-left: 90px;"><i class="fa fa-check"></i></button>
           <button type="button" onclick=" window.open('https://github.com/ketakideuskar','_blank')" class="btn btn-circle btn-xl"><i class="fa fa-check"></i></button>
-          <button type="button" class="btn btn-circle btn-xl"><i class="fa fa-check"></i></button>
+          <button type="button" onclick="sendEmail();" class="btn btn-circle btn-xl"><i class="fa fa-check"></i></button>
           <button type="button" class="btn btn-circle btn-xl"><i class="fa fa-check"></i></button>
         </div>
       </div>
       </div>
+
+      <script>
+        function sendEmail() {
+          window.location = "mailto:ketaki.deuskar@gmail.com";
+        }
+      </script>
 
     </body>
 
