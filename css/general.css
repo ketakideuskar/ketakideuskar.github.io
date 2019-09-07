@@ -54,6 +54,30 @@
   color: white;
 }
 
+.example {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  background-image: url("../images/sanfran.jpg");
+  background-size: cover;
+  background-position: 50%;
+  height: 300px;
+  width: 350px;
+}
+
+.example2 {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-left: 0px solid black !important;
+}
+
+.test {
+  margin-top: 50px;
+  margin-left: 20%;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.25);
+  border-width: 1px;
+  border-left: 0px solid red;
+  padding-right: 30px;
+}
+
 #header-name {
   color: #ffffff;
   font-size: 150px;
