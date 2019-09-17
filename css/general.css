@@ -78,6 +78,13 @@
   padding-right: 30px;
 }
 
+.list-header {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #585774;
+  display: inline;
+}
+
 #header-name {
   color: #ffffff;
   font-size: 150px;
